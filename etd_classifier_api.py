@@ -84,12 +84,12 @@ var_etd_collections = {0:'Education',1:'Medicine',2:'Natural Sciences',3:'Agricu
 var_etd_types = {0: 'Masters', 1: 'Doctoral'}
 
 # ETD collection classification: Load saved tokenizer and model
-var_etd_vectoriser_tfidf_data_title_abstract = joblib.load("bak-var_etd_vectoriser_tfidf_data_title_abstract.pkl")
-var_classifier_sgd_title_abstract = joblib.load("bak-var_classifier_sgd_title_abstract.pkl")
+var_etd_vectoriser_tfidf_data_title_abstract = joblib.load("models/bak-var_etd_vectoriser_tfidf_data_title_abstract.pkl")
+var_classifier_sgd_title_abstract = joblib.load("models/bak-var_classifier_sgd_title_abstract.pkl")
 
 # ETD type classification: Load saved tokenizer and model
-var_unza_etd_vectoriser_cv_coverpages = joblib.load("bak-var_unza_etd_vectoriser_cv_coverpages.pkl")
-var_classifier_rf_cover_page = joblib.load("bak-var_classifier_rf_cover_page.pkl")
+var_unza_etd_vectoriser_cv_coverpages = joblib.load("models/bak-var_unza_etd_vectoriser_cv_coverpages.pkl")
+var_classifier_rf_cover_page = joblib.load("models/bak-var_classifier_rf_cover_page.pkl")
 
 
 app = Flask(__name__)
