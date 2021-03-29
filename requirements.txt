@@ -84,7 +84,7 @@ pycrypto==2.6.1
 pycups==1.9.73
 PyDispatcher==2.0.5
 pyee==6.0.0
-Pygments==2.3.1
+Pygments==2.7.4
 PyHamcrest==1.9.0
 pymacaroons==0.13.0
 pymongo==3.10.0
