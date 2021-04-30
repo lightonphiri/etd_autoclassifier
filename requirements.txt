@@ -109,7 +109,7 @@ requests==2.21.0
 requests-html==0.10.0
 requests-oauthlib==1.2.0
 requests-unixsocket==0.1.5
-rsa==4.0
+rsa==4.7
 scholarly==0.2.4
 scikit-learn==0.20.3
 scipy==1.2.1
