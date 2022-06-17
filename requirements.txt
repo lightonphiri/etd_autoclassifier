@@ -114,7 +114,7 @@ scholarly==0.2.4
 scikit-learn==0.20.3
 scipy==1.2.1
 scour==0.36
-Scrapy==1.8.0
+Scrapy==2.6.1
 seaborn==0.9.0
 SecretStorage==2.3.1
 selenium==3.141.0
