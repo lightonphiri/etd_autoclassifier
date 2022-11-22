@@ -71,7 +71,7 @@ parsel==1.5.2
 parso==0.3.4
 pexpect==4.2.1
 pickleshare==0.7.5
-Pillow==5.1.0
+Pillow==9.3.0
 prometheus-client==0.6.0
 prompt-toolkit==2.0.9
 Protego==0.1.16
